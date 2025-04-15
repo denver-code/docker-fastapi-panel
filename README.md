@@ -36,6 +36,6 @@ uvicorn main:app
 ```
 
 # Available routes  
-`GET /containers` - returns 
-`POST /stop/ID` - stops container
-`POST /start/ID` - starts container
+`GET /containers` - returns  
+`POST /stop/ID` - stops container 
+`POST /start/ID` - starts container 
