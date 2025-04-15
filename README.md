@@ -1,6 +1,6 @@
 # Docker FastAPI Panel  
-Demo reposiroty that has basic docker + fastapi integration.  
-In future will be used in some of my projects
+Demo repository that has basic docker + fastapi integration.  
+In future, it will be used in some of my projects
 
 ## Features  
 - Show containers + their status
@@ -13,11 +13,11 @@ git clone https://github.com/denver-code/docker-fastapi-panel
 cd docker-fastapi-panel
 ```
 
-# Make sure docker engine already running!
+# Make sure the docker engine is already running!
 
 ## Docker Compose
-Note that current method requires to completly expose the docker socket (eg `/var/run/docker.sock:/var/run/docker.sock`)  
-This is dangerous way of doing things, but stil WIP to figure out more secure ways  
+Note that the current method requires to complete expose the docker socket (eg `/var/run/docker.sock:/var/run/docker.sock`)  
+This is a dangerous way of doing things, but still WIP to figure out more secure ways  
 ```bash
 docker compose up -d
 ```  
